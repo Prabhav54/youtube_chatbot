@@ -27,6 +27,3 @@ youtube_chatbot/
     ├── retrieval.py        # FAISS vector store and embedding logic
     ├── augmentation.py     # Prompt engineering and LCEL formatting
     └── generation.py       # Hugging Face API LLM initialization
-
-
-Author: Prabhav Khare
