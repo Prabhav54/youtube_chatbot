@@ -29,45 +29,4 @@ youtube_chatbot/
     └── generation.py       # Hugging Face API LLM initialization
 
 
-⚙️ Installation & Setup
-1. Clone the repository
 
-Bash
-git clone [https://github.com/yourusername/youtube-rag-chatbot.git](https://github.com/yourusername/youtube-rag-chatbot.git)
-cd youtube-rag-chatbot
-2. Create a virtual environment (Conda recommended)
-
-Bash
-conda create -n yt_chatbot python=3.10 -y
-conda activate yt_chatbot
-3. Install dependencies
-
-Bash
-pip install -r requirements.txt
-4. Configure Environment Variables
-Create a .env file in the root directory and add your Hugging Face API token:
-
-Code snippet
-HUGGINGFACEHUB_API_TOKEN=your_hugging_face_token_here
-💻 Usage
-Fire up the Streamlit server to launch the application:
-
-Bash
-streamlit run app.py
-Paste any YouTube URL into the sidebar.
-
-Click Process Transcript to build the vector database in real-time.
-
-Start asking questions about the video in the chat interface!
-
-🧠 Future Scope
-Implement Whisper API for videos without pre-generated closed captions.
-
-Add multi-video support to query across an entire YouTube playlist or channel.
-
-Integrate memory buffers to retain conversation history across multiple queries.
-
-Author: Prabhav Khare
-
-
-This RAG project pairs brilliantly with your other predictive analytics work. Are you planning to link this repository directly on your resume, or will you be deploying it live (e.g., on Streamlit Community Cloud) so recruiters can test it themselves?
